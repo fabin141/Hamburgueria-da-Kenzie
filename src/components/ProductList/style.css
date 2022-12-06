@@ -1,0 +1,14 @@
+.productlist {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+  }
+  
+  @media (min-width: 768px) {
+    .productlist {
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
